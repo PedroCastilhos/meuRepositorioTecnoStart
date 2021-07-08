@@ -1,17 +1,12 @@
 # meuRepositorioTecnoStart
 
-# Exercícios
+# Exercícios Realizados
 
 ## Aula 03
 
-1. Baixe o [repositório](https://github.com/tecno-start/react-02-alunos) da aula para seu computador.
-2. Baixe o seu repositório pessoal na pasta documentos.
-
-> no terminal do bash utilizar o comando: \
-`cd Documents` ou `cd Documentos` dependendo do idioma do Sistema Operacional (SO)\
-> depois use o comando 'git clone' 
-
-3. Em seu repositorio local, copie o conteúdo do repositório `react-02-alunos` e coloque dentro de seu repositório em
+- [x] Baixe o [repositório](https://github.com/tecno-start/react-02-alunos) da aula para seu computador. 
+- [x] Baixe o seu repositório pessoal na pasta documentos.
+- [x] Em seu repositorio local, copie o conteúdo do repositório `react-02-alunos` e coloque dentro de seu repositório em
    uma pasta chamada `AULAS`, em uma outra pasta chamada `EXERCICIOS` coloque a resolução de todos os seus exercíos.
    > meuRepositorioTecnoStart
    >> AULAS
@@ -30,4 +25,4 @@
    >>>
    >>>> aula-03 `com seu respectivo exercícios`
    
-4. Suba as modificações de seu repositório.
+- [x] Suba as modificações de seu repositório.
