@@ -9,14 +9,14 @@
 - [x] 4. Suba as modificações de seu repositório.
 - [x] 5. Com base no conteúdo exibido hoje preencha as lacunas de acordo com o devido seguimento de TI.
 
- É resposabilidade do proficional de `_____` definir qual o melhor fluxo da aplicação, enquanto o proficional de `_____` tem a obrigação de 
-codificar a aplicação para que a mesma cumpra essa exigência. Já o proficional de `_____` tende a trabalhar lado a lado com o proficional de 
-`_____` já que sua função contempla interligar as duas pontas do sistema.\
-Segundo o proficional de `_____` algumas funcionalidades não estavam funcionando como deveriam, então foi solicitado que o `_____` atuasse na 
+- [ ] É resposabilidade do proficional de ` UX ` definir qual o melhor fluxo da aplicação, enquanto o proficional de `Dev Full-stack` tem a obrigação de 
+codificar a aplicação para que a mesma cumpra essa exigência. Já o proficional de `Front-end` tende a trabalhar lado a lado com o proficional de 
+`back-end` já que sua função contempla interligar as duas pontas do sistema.\
+Segundo o proficional de `QA` algumas funcionalidades não estavam funcionando como deveriam, então foi solicitado que o `suporte` atuasse na 
 atividade, pois não se sabia se o problema estava na funcionalidade ou no visual. Este proficional, detectou que na verdade o problema estava no 
-em uma aplcação externa que encontrava-se indisponível, logo para solucionar o problema, ele entrou em contato com o proficional do `_____` que 
-por sua vez solicitou ao proficional de `_____` que averiguasse a situação, pois cogitou que o problema estaria ocorrendo devido ao grande fluxo 
-de acesso. Este proficional então solicitou que determinada equipe fizesse o `_____` para validar a hipótese. Ao confirmar essa hipótese verificou que isso poderia expor vário dados o que geraria um serio problema com o pessoal de `_____` e começou a estruturar um plano de ação.
+em uma aplcação externa que encontrava-se indisponível, logo para solucionar o problema, ele entrou em contato com o proficional do `arquitetura` que 
+por sua vez solicitou ao proficional de `teste de performance` que averiguasse a situação, pois cogitou que o problema estaria ocorrendo devido ao grande fluxo de acesso. Este proficional então solicitou que determinada equipe fizesse o `DB` para validar a hipótese. Ao confirmar essa hipótese verificou que isso poderia expor vário dados o que geraria um serio problema com o pessoal de `SI` e começou a estruturar um plano de ação.
+
 
 a-teste de performance\
 b-UX\
