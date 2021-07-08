@@ -1,5 +1,3 @@
-# meuRepositorioTecnoStart
-
 # Exercícios Realizados
 
 ## Aula 03
