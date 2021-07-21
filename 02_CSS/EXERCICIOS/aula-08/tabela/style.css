@@ -1,0 +1,26 @@
+h1 {
+  margin-left: 380px;
+}
+
+#table {
+  width: 800px;
+  height: 200px;  
+  text-align: left;
+  margin-left: 100px;
+  border: 2px solid rgb(0, 0, 0);
+  padding: 2px;
+}
+
+th {  
+  color: green;
+  border: 1px solid rgb(47, 0, 255);
+  padding: 2px;
+}
+
+#historic {
+  text-align: center;
+}
+
+img {
+  margin-left: 250px;
+}
