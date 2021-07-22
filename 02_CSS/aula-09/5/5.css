@@ -1,0 +1,29 @@
+body {
+  margin-left: 150px;
+}
+
+#TituloPrincipal {
+  margin-left: 150px;
+}
+
+img {
+  position: absolute; 
+	left: 0px;  
+	top: 0px;
+  opacity: 25%;
+}
+
+p {
+  width: 300px;
+  color: #afbff8
+  
+}
+
+div p {
+  width: 300px;
+  text-align: justify;
+  color: black;
+  margin-top: -2000px;
+  margin-left: 300px;
+  
+}
