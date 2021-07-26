@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ body {
+  background-image: url(/back-ground.jpg);
+  background-attachment: fixed;
+ }
+
+
+#container {
+  max-width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background: #106083; 
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;  
+}
+
+.titulo {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;  
+  margin-right: 10%;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;  
+}
+
+nav ul li {
+  text-align: center;
+  width: 100%;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 5px;
+  font-size: 20px;
+  color: white;
+}
+
+main {
+  text-align: center;
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  top: 100px;
+  margin-bottom: 100px;
+}
+
+p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: justify;
+  font-size: 25px;
+  color: white;
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #002f2f;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  position: relative;
+  bottom: 0;
+  height: 50px;
+}
+
+footer a {
+  margin-top: 5px;
+  color: #ffffff;
+}
+
+.button {
+  width: 200px;
+  height: 50px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid #000000;
+  background-color: #0a07ac;
+  color: #ffffff;
+  transition: background 0.5s;
+  margin: 10px;
+}
+
+.button:hover {
+  background: black;
+  color: white;
+}
+
+.buttonBackToTop {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.post {
+  display: flex;
+  height: 500px;
+  margin-top: 20px;
+  gap: 20px;
+  background-color: #106083;
+  padding-left: 13px;
+  max-width: 800px;
+}
+
+.postR {
+  flex-direction: row-reverse;
+  height: 500px;
+  padding-right: 13px;  
+  display: flex;
+  margin-top: 20px;
+  gap: 20px;
+  background-color: #106083;
+  max-width: 800px;
+}
+
+.postContent {
+  width: 50%;
+}
+
+.postContent p {
+  font-size: 18px;
+}
+
+.postImg {
+  width: 50%;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Inicial | Astronomia</title>
+  <link rel="stylesheet" href="/pages-css/cadastro.css">
+  <link rel="shortcut icon" href="/assets/pg-inical/favcon.png" type="image/x-icon">
+</head>
+<body>  
+  <div id="container">
+    <header class="header">      
+      <img src="/assets/pg-inical/Logo.jpeg" alt="Sistema solar com todos os planetas">
+      <h1 id="titulo">
+        Cadastro
+      </h1>
+      <nav>
+        <ul>
+          <li><a href="/pages-html/inicial.html">Home</a></li>
+          <li>
+            <a href="/pages-html/pg-planetas.html">Planetas</a>
+          </li>
+          <li>
+            <a href="#">Cadastro</a>
+          </li>
+        </ul>
+      </nav>      
+    </header>
+          <main>
+        
+        <form method="POST">
+          
+          <fieldset class="caixa">
+            <div class="form">
+            <legend  id="cadastro">Informações do Planeta:</legend>
+            <label for="Login">Login:</label>
+            <input type="text" id="login" placeholder="Digite seu nome" required> <br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" minlength="8" required placeholder="Mínimo 8 caracteres" required> <br>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" placeholder="Ex: email@gmail.com" required> <br>
+
+            <label for="planeta">Nome do Planeta:</label>
+            <input type="text" id="planeta" placeholder="Ex: Planeta Cancri" required> <br>              
+
+            
+             <label for="">Composição:</label>        
+              <select name="composicao" id="">
+              <option value="selecione" disabled selected>Selecione o Tipo</option>
+              <option value="rochoso">Rochoso</option>
+              <option value="gasoso">Gasoso</option>
+            </select>
+            <br>
+
+            <label for="Diametro">Diâmetro:</label>
+            <input type="text" id="Diametro" required placeholder="Ex: 12,742" required> <br>
+
+            <label for="n">Nº de satélites naturais:</label>
+            <input type="number" id="n" required placeholder="Ex: 9" required> <br>
+
+            <label for="file">Imagem do planeta:</label>
+            <input type="file" id="file" required> <br>
+
+          </div>
+          </fieldset>
+
+          <input type="reset" value="Redefinir os dados" class="button">
+          <input type="submit" value="Cadastrar o Planeta" class="button">
+
+        </form>     
+
+        
+            
+      </main>
+
+      <br>        
+        
+         
+        
+        <footer><span>Todos os direitos são reservados à TecnoStart. &#169;<a href="https://policies.google.com/privacy?hl=pt-BR" target="blank">Política de Privacidade 🔒</a></span>
+            
+      </footer>
+        
+    </div>
+  </body>
+</html>
