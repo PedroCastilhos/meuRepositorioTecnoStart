@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  background-color: rgb(132, 132, 200);
+  width: auto;
+  height: 120vh;
+}
+
+header {
+  background-color: blueviolet;
+  width: 100%;
+  height: 100px;
+
+  
+}
+
+.container {
+  max-width: 1200px;
+  width: 80%;
+  display: inline-block;
+}
+
+header .container img {
+  height: 100px;
+  display: inline-block;
+}
+
+header .container{
+  height: 100px;
+}
+
+header div img {
+  height: 100px;
+  float: left;
+}
+
+header .container nav{
+  display: inline-block;
+}
+
+head .container{
+  height: 100px;
+}
+
+
+.lista-menu li{
+  margin-top: 2.5em;
+  margin-left: 3em;
+  float: right;
+}
+
+footer {
+  position: absolute;
+  bottom: 0 auto;
+  background-color: aquamarine;
+}
