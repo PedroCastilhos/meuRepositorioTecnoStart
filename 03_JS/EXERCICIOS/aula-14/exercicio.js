@@ -25,11 +25,21 @@ for (var i = 0; i <= 10; i++) {
 
 console.log('---(FAIL)---Questão número 4---(FAIL)---')
 
-var t3 = 3
-for (var i = 0; i <= 10; i++) {
-  var r = i * t3
-  var rr = r * t3
-  console.log(rr)
+var valor = 3
+
+if(valor<0){
+  console.log("valor invalido")
+  
+} else if (valor == 0 || valor == 1){
+  console.log('1')
+
+} else {
+  var acumula = 1;
+  for(var i = valor; i > 1; i --){
+    console.log(`${acumla} x ${i} = ${acumla * i}`)
+    acumla *=i;
+  }
+  console.log(acumula)
 }
 
 console.log('-------Questão número 5-------')
