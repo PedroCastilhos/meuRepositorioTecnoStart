@@ -1,5 +1,5 @@
-const dado = [
-  'avança', 'recua', 'espera', 'dado', 'normal'
+var dado = [
+  'avançar', 'recuar', 'esperar', 'dado', 'normal'
 ]
 
 function demonstrar (jogada) {  
@@ -8,15 +8,12 @@ function demonstrar (jogada) {
     var aleatorio = Math.floor(Math.random()* 5)
     return aleatorio
   }
-    for (let i = 0; i < 1; i++) {
+     {
       console.log('A jogada escolhida foi ' + dado[resultado])      
       
     }
 }
-
-for (let i = 0; i < 5; i++)
-
+for (let i = 0; i < 4; i++)
 demonstrar(dado)
-
 
 
