@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="default.css" rel="stylesheet">
+
+    <title>Rendimento</title>
+</head>
+
+<body>
+    <main>
+        <h1>Quanto rende...</h1>
+        <div class="card">            
+            <form class="container">
+                <div class="form-control">
+                    <label for="valorInicial">Valor Inicial</label>
+                    <input id="valorInicial" required type="number" placeholder="1000">
+                </div>
+
+                <div class="form-control">
+                    <label for="Aporte">Aporte Mensal</label>
+                    <input id="Aporte" required type="number" placeholder="100">
+                </div>
+
+                <div class="form-control">
+                    <label for="Meses">Meses</label>
+                    <input id="Meses" required type="number" placeholder="12">
+                </div>
+              
+                <div>                  
+                    
+                    <div class="bancos">
+                        <div>
+                            <input type="radio" id="picpay" value="picpay" name="banco"  class="radioBanco"> 
+                            <label for="picpay">Pic Pay</label>
+                        </div>
+                        <input type="number" value="120" id="TaxaBanco-picpay">
+                    </div>  
+
+                    <div class="bancos">
+                        <div>
+                            <input type="radio" id="nubank" value="nubank" name="banco" class="radioBanco">
+                            <label for="nubank">Nubank</label>
+                        </div>
+                        <input type="number" value="100" id="TaxaBanco-nubank">
+                    </div>  
+                    
+                
+                    <div class="bancos">
+
+                        <div>
+                            <input type="radio" id="poupanca" value="poupanca" name="banco" class="radioBanco">
+                            <label for="poupanca">Poupança</label>
+                        </div>
+                        <input type="number" value="2.4" id="TaxaBanco-poupanca" readonly>
+                    </div>
+
+                    <div class="bancos">
+                        <input type="radio" id="outro" value="outro" name="banco" class="radioBanco">
+                        <input type="number" name=""  id="TaxaBanco-outro" value="4">
+                    </div>
+                  </div>
+            </form>
+            <button id="Cadastrar" type="button" onclick="calcular()">Calcular</button>
+        </div>
+
+        <div class="card">
+            <div class="container">           
+                <span id="Rende" hidden> Rende: <span></span> </span>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

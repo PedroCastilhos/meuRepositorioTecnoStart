@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulário</title>
+  <link rel="stylesheet" href="default.css">
+</head>
+<body>
+    <main>
+      <div class="card">
+        <form class="container">
+            <div class="form-control">
+              <label for="Nome">Nome</label>
+              <input  id="Nome" type="text">
+            </div>
+      
+            <div class="form-control">
+                <label for="Sobrenome">Sobrenome</label>
+                <input type="text" id="Sobrenome">
+            </div>
+            <div class="form-control">
+              <label for="Nascimento">Ano de Nascimento</label>
+              <input type="date" id="Nascimento">
+            </div>
+            <div class="form-control">
+              <label for="Idade">Idade</label>
+              <input type="number" placeholder="Idade Calculada" readonly id="Idade">
+            </div>
+            <button id="Cadastrar" type="button">Cadastrar</button>
+      
+            </div>
+          </form>
+      </div>
+      <fieldset>
+        <div class="card">
+          <button id="Limpar">Limpar</button>
+          <table class="container">
+            <thead>
+              <tr>
+                  <th>Nome Completo</th>
+                  <th>Idade</th>
+              </tr>
+            </thead>
+            <tbody id="MinhaLista">
+                    <tr>
+                      <td>Teste</td>
+                      <td>22</td>
+                    </tr>
+            </tbody>
+          </table>
+        </div>
+      </fieldset>
+    </main>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
