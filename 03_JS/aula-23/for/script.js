@@ -48,10 +48,47 @@ const listaDeCarros = [
       "VagaFixa": true
   }
 ]
-
+/*
 for (let i = 0; i < listaDeCarros.length; i++) {
       let carro = listaDeCarros[i]
       console.log(carro.Placa + ' vaga fixa ' + carro.VagaFixa)
 }   
+//Para forEach pode por qualquer parametro dentro da arrow.f // O forEach retorna qualquer coisa dentro de uma array de forma livre
+listaDeCarros.forEach( (element) => {
+  console.log(element.Placa + 'vaga fixa: ' + element.VagaFixa)
+})
 
-listaDeCarros.forEach( () => {})
+// map é utilizado para retornar JSON, sem return ele ñ funciona
+
+let carrosDoEstacionamento = [];
+for (let i = 0; i < listaDeCarros.length; i++){
+    let carro = listaDeCarros[i];
+    let carrosDoEstacionamento = {
+      "Placa": carro.Placa,
+      "Cor": carro.Cor,
+      "VagaFixa": carro.VagaFixa,
+    }
+    carrosDoEstacionamento.push(carrosDoEstacionamento)
+}
+
+console.log(carrosDoEstacionamento)
+
+
+
+let carrosDoEstacionamento = [];
+carrosDoEstacionamento = listaDeCarros.map((carro) =>{
+  return {
+    "Placa": carro.Placa,
+    "Cor": carro.Cor,
+    "VagaFixa": carro.VagaFixa,
+  }
+})
+console.log(carrosDoEstacionamento)
+
+
+
+let carrosDeVagaFixa = [];
+carrosDeVagaFixa = listaDeCarros.filter(carro => carro.VagaFixa)
+console.log(carrosDeVagaFixa)
+
+*/
