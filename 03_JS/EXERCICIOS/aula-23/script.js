@@ -101,14 +101,14 @@ const pessoa = {
   celular: '(83) 99413-4852'
 }
 
-// Um código que obtenha uma lista telefonica, contendo: nome, telefone_fixo e celular
-// Um código que obtenha uma lista de pessoas cujo sexo seja Feminino
-// Um código que obtenha uma lista de pessoas cujo sexo seja Masculino
-// Um código que para cada elemento seja impresso em tela nome da pessoa
-// Um código que obtenha a primeira pessoa do estado "RS"
-// Um código que remova o último elemento da lista
-// Um código que insira elemento na lista
-// Um código que obtenha uma lista de lista de pessoas separadas por estado, ou seja, para cada estado criar uma lista de pessoas
+// 1. Um código que obtenha uma lista telefonica, contendo: nome, telefone_fixo e celular
+// 2. Um código que obtenha uma lista de pessoas cujo sexo seja Feminino
+// 3. Um código que obtenha uma lista de pessoas cujo sexo seja Masculino
+// 4. Um código que para cada elemento seja impresso em tela nome da pessoa
+// 5. Um código que obtenha a primeira pessoa do estado "RS"
+// 6. Um código que remova o último elemento da lista
+// 7. Um código que insira elemento na lista
+// 8. Um código que obtenha uma lista de lista de pessoas separadas por estado, ou seja, para cada estado criar uma lista de pessoas
 /*
 console.log('----------Exercício Um----------')
 
