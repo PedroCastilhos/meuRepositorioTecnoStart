@@ -149,9 +149,11 @@ pessoaGaucha = ListaDePessoas.find(estado => estado.estado === 'RS')
 console.log(pessoaGaucha)
 
 
+
 console.log('----------Exercício Seis----------')
 
 let dadosDePessoas = [];
+ListaDePessoas.pop()
 dadosDePessoas = ListaDePessoas.map((pessoa) => {
   
   return {
@@ -167,7 +169,8 @@ dadosDePessoas = ListaDePessoas.map((pessoa) => {
   
 }) 
 
-console.log(ListaDePessoas.pop(ListaDePessoas), dadosDePessoas)
+console.log(dadosDePessoas)
+
 
 console.log('----------Exercício Sete----------')
 
@@ -197,14 +200,18 @@ dadosDePessoas = ListaDePessoas.map((pessoa) => {
 
 console.log(dadosDePessoas)
 
+*/
 
+let ListaDePessoas = [];
 
-console.log('----------Exercício Oito----------')
-
-ListaDePessoas.forEach( (nome) => {
-  console.log(nome.nome).forEach( (estado) => {
-    console.log(estado.estado)
-  })
+ListaDePessoas.forEach(pessoa => {
+  const mecanismoDeBusca = (pessoaEstado) => pessoaEstado.estado === pessoa.estado
+  if (! listEstados.find(mecanismoDeBusca)) {
+    listEstados.push({
+      estado: pessoa.estado,
+      pessoas: ListaDePessoas.filter(mecanismoDeBusca)
+    })
+  }
 })
 
-*/
+listEstados.forEach(estado => console.log(estado))
