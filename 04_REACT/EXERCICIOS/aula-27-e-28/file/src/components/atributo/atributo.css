@@ -1,0 +1,7 @@
+.atributo {
+  text-align: center;
+  border: solid 1px black;
+  border-radius: 5px;
+  width: 100px; 
+  height: 1.5em;  
+}
