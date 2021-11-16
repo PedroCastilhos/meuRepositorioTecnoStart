@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.campo {
+    height: 15px;
+    width: 15px;
+    background-color: #cccccc;
+}
+
+.aberto {
+    background-color: #777777;
+    border-style: inset
+}
+
+._1 {
+    color: green;
+}
+
+._2,
+._3,
+._4 {
+    color: yellow;
+}
+
+._5,
+._6,
+._7 {
+    color: orange;
+}
+
+._8 {
+    color: red;
+}
+
+.marcado {
+    background-color: burlywood;
+    border-style: inset
+}
+
+.explodidio {
+    color: white;
+    background-color: RED;
+    border-style: inset
+}
+
+.salvo {
+    background-color: cornflowerblue;
+}

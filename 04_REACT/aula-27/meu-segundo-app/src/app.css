@@ -1,0 +1,10 @@
+.container-app {
+  display: flex;
+  flex-direction: column;
+}
+
+.group-cards {
+  display: flex;
+  flex-direction: row;
+}
+

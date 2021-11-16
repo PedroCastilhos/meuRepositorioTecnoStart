@@ -4,9 +4,9 @@ function Conteudo(props){
 
 
     return(
-    <spam className="Conteudo">
+    <span className="Conteudo">
         {props.children}
-    </spam>
+    </span>
     )
 
 }

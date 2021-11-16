@@ -1,33 +1,41 @@
 import './atributo.css'
 
 function Atributo({ nome }) {
-    let atributo;
+    let atributo = "atributo";
+
     switch (nome) {
         case 'fogo':
-            atributo = { "backgroundColor": "red", "color": "white" }
+            atributo += " fogo"
             break
 
-
         case 'agua':
-            atributo = { "backgroundColor": "blue", "color": "white" }
+            atributo += " agua"
             break
 
         case 'planta':
-            atributo = { "backgroundColor": "green", "color": "white" }
+            atributo += " planta"
             break
 
         case 'veneno':
-            atributo = { "backgroundColor": "purple", "color": "white" }
+            atributo += " veneno"
             break
 
+        case 'ar':
+            atributo += " ar"
+            break
+
+        case 'inseto':
+            atributo += " veneno"
+            break
 
         default:
-            atributo = { "backgroundColor": "gray", "color": "black" }
+            atributo += " normal"
+            nome = "normal"
             break;
     }
 
     return (
-        <div className="atributo" style={atributo}>
+        <div className={atributo}>
             {nome}
         </div>
     )

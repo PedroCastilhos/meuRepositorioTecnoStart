@@ -1,0 +1,22 @@
+.screen {
+  border: 3px solid black;
+  border-radius: 2px;
+  background-color: white;
+  color: black;
+  margin-top: 69990px;
+  max-width: 500px;
+  width: 70%;
+  padding: 20px;
+  font-size: 1.1rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+p {
+  margin: 20px;
+}
